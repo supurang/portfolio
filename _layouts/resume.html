@@ -97,32 +97,13 @@
       {% endif %}
 
 
-      {% if site.resume_section_publications %}
-      <!-- begin Publications -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Publications</h2>
-        </header>
-
-        {% for recognition in site.data.publications %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ publications.title }}</h3>
-          <h4 class="resume-item-details">{{ pub.authors }} &bull; {{ pub.venue }}</h4>
-          <p class="resume-item-copy">{{ pub.url }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Publications -->
-      {% endif %}  
   
         
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Publications</h2>
         </header>
 
         {% for project in site.data.projects %}

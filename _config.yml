@@ -1,5 +1,5 @@
 # Site settings
-title: "Jekyll Resume Template"
+title: "Eunchan Lee's Homepage"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
@@ -14,7 +14,7 @@ resume_name:                    "Lisa M. Simpson"
 resume_title:                   "VP of Global Communications"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "purang2@unist.ac.kr"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-7334"

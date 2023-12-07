@@ -1,17 +1,11 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-
 - organization: SKT AI Fellowship
   role: Encouraged Prize
   year: Nov. 2022
-  url: https://www.sktuniv.com/
+  url: https://devocean.sk.com/blog/techBoardDetail.do?page=&query=&ID=164473&boardType=writer&searchData=sam56903&subIndex=&idList=&pnwriterID=sam56903
+  summary: Proposed Story to Art architecture based on Vision-Language Model  
   
 - organization: Korean Emotion Recognition International Challenge
   role: Bronze Prize
@@ -25,7 +19,6 @@
   url: https://github.com/yh08037/quantum-neural-network
   summary: Proposed Quantum-Neural Network Architecture.
 
-  
 - organization: 2020 Daegu & Kyungpook AI Programming Competition 
   role:  Encouraged Prize
   year: Oct. 2020

@@ -78,6 +78,26 @@
 
   
         
+
+
+      {% if site.resume_section_experience %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        {% for job in site.data.experience %}
+          <h4 class="resume-item-details" itemprop="name">{{ job.company }}</h4>
+          <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.summary }}&bull; {{ job.duration }}</p>
+        {% endfor %}
+
+      </section>
+      <!-- end Experience -->
+      {% endif %}
+
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -98,27 +118,6 @@
       </section>
       <!-- end Projects -->
       {% endif %}
-
-
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
-
-        {% for job in site.data.experience %}
-          <h4 class="resume-item-details" itemprop="name">{{ job.company }}</h4>
-          <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</p>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        {% endfor %}
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
-
-
 
       
       {% if site.resume_section_skills %}

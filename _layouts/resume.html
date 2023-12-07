@@ -84,7 +84,8 @@
         <header class="section-header">
           <h2>Publications</h2>
         </header>
-
+        
+        <ol>
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
@@ -93,7 +94,7 @@
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
-
+        </ol>
       </section>
       <!-- end Projects -->
       {% endif %}

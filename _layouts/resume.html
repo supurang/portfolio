@@ -89,8 +89,11 @@
         </header>
 
         {% for job in site.data.experience %}
+        <div class="resume-item">
           <h4 class="resume-item-details" itemprop="name">{{ job.company }}</h4>
-          <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.summary }}&bull; {{ job.duration }}</p>
+          <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</p>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div>
         {% endfor %}
 
       </section>

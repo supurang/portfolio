@@ -8,7 +8,7 @@
 - project: Prompt-based In-Context Learning for Korean Question Answering
   role: Eunchan Lee, Sangtae Ahn.
   url: "https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20220601&B_CATE=BBC1"
-  duration: Korean Artificial Intelligence Association Autumn Conference (KAIA'2022) (Domestic) 
+  duration: KAIA'2022 (Domestic Conferenec, AI) 
   description: 
 
 - project: Image Generation from Korean Dialogue Text via Prompt-based Few-shot Learning
@@ -20,7 +20,7 @@
 - project: Story to Art Generation using Fine-tuned Stable Diffusion
   role: Seunghoon Lee*, Dongyeop Lee*, Eunchan Lee*, Sangtae Ahn.
   url: "https://aiassociation.kr/"
-  duration: Korean Artificial Intelligence Association Autumn Conference (KAIA'2022) (Domestic)
+  duration: KAIA'2022 (Domestic Conferenec, AI)
   description: 
 
 - project: Generating Literature-Style Sentences based on Summarized Text
@@ -28,7 +28,6 @@
   url: "https://sites.google.com/view/hclt2022/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/%EA%B5%AC%EB%91%90%EB%B0%9C%ED%91%9C?authuser=02"
   duration: HCLT'22 (Domestic Conference, NLP) 
   description: 
-
 
 - project: Improving Performance of Sentiment Classification using Korean Style Transfer based Data Augmentation
   role: Eunwoo Go, Eunchan Lee, Sangtae Ahn.

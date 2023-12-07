@@ -96,28 +96,28 @@
       <!-- end Education -->
       {% endif %}
 
-
-
-    {% if site.resume_section_publications %}
-      <!-- begin publications -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2 style="color:#CC6699;">Publications</h2>
-        </header>
-
-      
-        {% for pub in site.data.publicationss %}
-        <div class="resume-item">
-          <h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
-          {{ pub.authors }}  <em>{{ pub.venue }}</em>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end publications -->
-    {% endif %}
-
-      
+  
+  
+      {% if site.resume_section_publications %}
+        <!-- begin publications -->
+        <section class="content-section">
+          <header class="section-header">
+            <h2 style="color:#CC6699;">Publications</h2>
+          </header>
+  
+        
+          {% for pub in site.data.publicationss %}
+          <div class="resume-item">
+            <h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
+            {{ pub.authors }}  <em>{{ pub.venue }}</em>
+          </div>
+          {% endfor %}
+  
+        </section>
+        <!-- end publications -->
+      {% endif %}
+  
+        
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">

@@ -174,11 +174,9 @@
         </header>
 
         <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in interests %}
+            {% for interest in site.data.interests %}
             <li>{{ interest.description }}</li>
             {% endfor %}
-          </ul>
         </div>
 
       </section>

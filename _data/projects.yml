@@ -1,16 +1,38 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- project: Comparative Study of Multiclass Text Classification in Research Proposals Using Pretrained Language Models
+  role: Eunchan Lee, Changhyeon Lee, Sangtae Ahn.
+  url: "https://www.mdpi.com/2076-3417/12/9/4522"
+  duration: Applied Sciences (SCIE)
+  description: -
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Prompt-based In-Context Learning for Korean Question Answering
+  role: Eunchan Lee, Sangtae Ahn.
+  url: "https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20220601&B_CATE=BBC1"
+  duration: Korean Artificial Intelligence Association Autumn Conference (KAIA'2022) (Domestic) 
+  description: -
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Image Generation from Korean Dialogue Text via Prompt-based Few-shot Learning
+  role: Eunchan Lee, Sangtae Ahn.
+  url: "https://sites.google.com/view/hclt2022/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/%EA%B5%AC%EB%91%90%EB%B0%9C%ED%91%9C?authuser=02"
+  duration: HCLT'22 (Domestic Conference, NLP) 
+  description: -
+
+- project: Story to Art Generation using Fine-tuned Stable Diffusion
+  role: Seunghoon Lee*, Dongyeop Lee*, Eunchan Lee*, Sangtae Ahn.
+  url: "https://aiassociation.kr/"
+  duration: Korean Artificial Intelligence Association Autumn Conference (KAIA'2022) (Domestic)
+  description: -
+
+- project: Generating Literature-Style Sentences based on Summarized Text
+  role: Bugwang Choe, Eunchan Lee, Sangtae Ahn.
+  url: "https://sites.google.com/view/hclt2022/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/%EA%B5%AC%EB%91%90%EB%B0%9C%ED%91%9C?authuser=02"
+  duration: HCLT'22 (Domestic Conference, NLP) 
+  description: -
+
+
+- project: Improving Performance of Sentiment Classification using Korean Style Transfer based Data Augmentation
+  role: Eunwoo Go, Eunchan Lee, Sangtae Ahn.
+  url: "https://sites.google.com/view/hclt2022/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/%EA%B5%AC%EB%91%90%EB%B0%9C%ED%91%9C?authuser=02"
+  duration: HCLT'22 (Domestic Conference, NLP) 
+  description: -
+  
